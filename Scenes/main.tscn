@@ -1,7 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://cy278cgxca5vu"]
+[gd_scene load_steps=3 format=3 uid="uid://cy278cgxca5vu"]
 
 [ext_resource type="PackedScene" uid="uid://ca4ekepyp4rqs" path="res://Scenes/Player/player.tscn" id="1_tx4qp"]
+[ext_resource type="PackedScene" uid="uid://drqts5q0cshox" path="res://Scenes/Map/green_land.tscn" id="1_xayvx"]
 
 [node name="Main" type="Node2D"]
 
+[node name="GreenLand" parent="." instance=ExtResource("1_xayvx")]
+
 [node name="Player" parent="." instance=ExtResource("1_tx4qp")]
+position = Vector2(332, 151)
