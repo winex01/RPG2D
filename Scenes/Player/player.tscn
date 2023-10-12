@@ -148,7 +148,7 @@ script = ExtResource("1_yrw08")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_53xb8")
 animation = &"walk_down"
-frame_progress = 0.876798
+frame_progress = 0.888725
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false

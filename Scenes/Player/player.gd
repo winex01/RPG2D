@@ -14,7 +14,8 @@ func controller():
 	
 func spriteAnimation():
 	if velocity.length() == 0:
-		sprite.stop()
+		if sprite.is_playing():
+			sprite.stop()
 	else:
 		var playAnimation = "down"
 		if velocity.x < 0: # negative value going left
