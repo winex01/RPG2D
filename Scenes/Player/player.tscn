@@ -148,9 +148,11 @@ script = ExtResource("1_yrw08")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_53xb8")
 animation = &"walk_down"
-frame_progress = 0.888725
+frame_progress = 0.149839
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2(0, 1)
 shape = SubResource("CapsuleShape2D_1fwv2")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position_smoothing_enabled = true
