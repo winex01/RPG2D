@@ -1,10 +1,3 @@
-[gd_scene load_steps=2 format=3 uid="uid://ca4ekepyp4rqs"]
-
-[ext_resource type="Texture2D" uid="uid://c0i33824a17rl" path="res://icon.svg" id="1_qmpmf"]
+[gd_scene format=3 uid="uid://ca4ekepyp4rqs"]
 
 [node name="Player" type="Node2D"]
-
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(4.5, 5.75)
-scale = Vector2(0.0703125, 0.0820313)
-texture = ExtResource("1_qmpmf")
